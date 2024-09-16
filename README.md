@@ -49,12 +49,18 @@
     cd WGPythonTestTask
     ```
 
-2. **Установка зависимостей:**
+2. **Создание виртуального окружения:**
+    ```
+    python3 -m venv .venv
+    source .venv/bin/activate или source .venv/bin/activate.fish или source .venv/bin/activate.zsh
+    ```
+
+3. **Установка зависимостей:**
 
    ```
-   pip install -r requirements.txt
+   pip3 install -r requirements.txt
    ```
-2. **Запуск:**
+4. **Запуск:**
 
    ```
    python3 WGPythonTestTask.py
